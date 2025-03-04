@@ -10,7 +10,7 @@
 
 
 * {padding: 0px;margin: 0px;}
-body {font-family: "DMsans";overflow-x: hidden;}
+body {font-family: "DMsans";background-size: cover;background-color: whitesmoke;}
 h3 {text-align: center;font-size: 30px;background-color:#2368accc;color: white;border-radius: 30px;width: 200px;margin: auto;margin-bottom: 20px;margin-top: 20px;}
 
 header {width: 100vw; height: auto;background-color:#2368accc;padding: 20px;color: white;font-family: "Play";text-shadow: rgba(0, 0, 0, 0.61) 1px 1px 1px;position: fixed;top: 0;left: 0;}
@@ -23,8 +23,41 @@ menu a {display: block; padding: 10px;color: white;text-decoration: none;text-al
 menu a:hover {text-decoration: underline;cursor: pointer;transition: 1s;}
 #menu {display: block;padding: 10px;text-align: left;cursor: pointer;}
 
-div {padding: 30px;border-style: solid;border-radius: 20px;border-color: rgb(46, 101, 219);min-width: 320px;max-width: 1200px;margin: auto;}
-#div1 {border-style: none;margin-left: 30px;}
+body div {width: 70vw;display: block;margin: auto;padding: 20px;border-style: solid;border-radius: 20px;border-color: rgb(46,101,219);text-align: center;background-color: white;}
+
+#div1 {margin-top: 200px;border: none;width: 90vw;background-color: whitesmoke;}
+#div1 h2 {width: 35vw;font-size: 40px;text-align: justify;}
+#zap {width: 70px;position: fixed;bottom: 10px;right: 10px;}
+
+
+#divProjetos img {width: 300px;margin: 5%;}
+
+
+#divHabilidades img{width: 100px;vertical-align: middle;margin: 5%;}
+
+#divSobremimint {width: 50vw;background-color: rgb(46, 101, 219);color: white;border-style: none;}
+#divSobremimint img {width: 300px;display: block;margin: auto;margin-bottom: 10px;border-radius: 20px;}
+#divSobremimint p {text-align: justify;}
+
+#divServicos {margin-bottom: 50px;}
+#divServicos img {margin: 5%;}
+
+#contatos {background-color: rgb(46,101,219);text-align: center;padding: 10px;}
+#contatos img {width: 40px;margin-right: 20px;}
+
+footer {background-color: black;text-align: center;padding: 10px;color:white}
+
+
+
+
+
+
+
+
+
+/*
+div {padding: 30px;border-style: solid;border-radius: 20px;border-color: rgb(46, 101, 219);}
+#div1 {border-style: none;margin-left: 30px;display: block;margin: auto;}
 #div1 div {border-style: none;}
 #div1 h2 {font-size: 40px;width: 30vw;margin-bottom: 20px;text-align: justify;margin-top: 150px;}
 #orc {display: inline}
@@ -38,8 +71,8 @@ div {padding: 30px;border-style: solid;border-radius: 20px;border-color: rgb(46,
 #divHabilidades img {width: 100px;margin: 30px;vertical-align: middle;}
 
 #divSobremim {text-align: center;}
-#divSobremimint {columns: 2;min-width: 600px;max-width: 700px;border: none;display: inline-block;text-align: justify;font-size: 20px;}
-#foto_perfil {width: 300px;border-radius: 20px;}
+#divSobremimint {background-color: aquamarine;}
+#foto_perfil {width: 300px;border-radius: 20px;margin: auto;display: block;}
 
 #divServicos {text-align: center;}
 #divServicos img {margin-right: 20px;}
