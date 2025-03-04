@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css\estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="css/mediaquery.css">
     <title>George Alcantara</title>
 </head>
 <body>
     <header>
         <h1>George Alcantara</h1>
         <p>Desenvolvedor web</p>
-
-        <menu>
+        <span class="material-symbols-outlined" id="menu" onclick="clickMenu()">menu</span>
+        <menu id="itens">            
             <ul>
                 <li><a href="#">Sobre mim</a></li>
                 <li><a href="#">Projetos</a></li>
@@ -32,9 +34,9 @@
         </div>
         <h3>Projetos</h3>
         <div id="divProjetos">
-                <a href=""><img src="Imagens/g-car.png" alt="" srcset=""></a>
-                <a href=""><img src="Imagens/Portal_saude.png" alt="" srcset=""></a>
-                <a href=""><img src="Imagens/cardapio_digital.png" alt="" srcset=""></a>
+                <a href="https://g-car-seminovos.bubbleapps.io/version-test" target="_blank" rel="external"><img src="Imagens/g-car.png" alt="" srcset=""></a>
+                <a href="https://projetoclinicabubble.bubbleapps.io/version-test" target="_blank" rel="external"><img src="Imagens/Portal_saude.png" alt="" srcset=""></a>
+                <a href="https://gcardapiodigital.bubbleapps.io/version-test/cardapio" target="_blank" rel="external"><img src="Imagens/cardapio_digital.png" alt="" srcset=""></a>
         </div>
         <h3>Habilidades</h3>
         <div id="divHabilidades">
@@ -48,21 +50,28 @@
 
         </div>
         <h3>Sobre Mim</h3>
-        <div id="divSobremim">
-           
-            <p>
-                <img src="" alt="" srcset="">
-                Administrador, desenvolvedor de software e aplicações, membro da Comunidade Semcodar e estudante ativo de novas tecnlogias. Busco alinhar a administração com o desenvolvimento de softwares, procurando resolver problemas e deficiências nas empresas e para o público em geral. 
-            </p>
-
+        <div id="divSobremim">               
+                <div id="divSobremimint">
+                    <p><img id="foto_perfil" src="Imagens/foto_portpholio.jpeg" alt="" srcset=""><br><br>
+                    <strong>Administrador, desenvolvedor de software e aplicações,</strong> membro da Comunidade Semcodar e estudante ativo de novas tecnlogias. Busco alinhar a administração com o desenvolvimento de softwares, procurando resolver problemas e deficiências nas empresas e para o público em geral.</p>
+                </div>
         </div>
         <h3>Serviços</h3>
         <div id="divServicos">
-            
+            <img src="Imagens/websites_serv.png" alt="" srcset="">
+            <img src="Imagens/aplicaecomerce_serv.png" alt="" srcset="">
+            <img src="Imagens/cardapios_serv.png" alt="" srcset="">
+            <img src="Imagens/sistemasgerenciais_serv.png" alt="" srcset="">
+            <img src="Imagens/ferramentagest_serv.png" alt="" srcset="">
+        </div>
+        <div id="divContatos">
+            <a href="https://www.instagram.com/georgevalcantara/"><img src="Imagens/instagram.png" alt="" srcset=""></a>
+            <a href=""><img src="Imagens/linkeding.png" alt="" srcset=""></a>
+            <a href="https://api.whatsapp.com/send?phone=5586994192786&text= Olá, estou buscando uma solução para o meu projeto..."><img src="Imagens/zapzap.png" alt="" srcset=""></a>
         </div>
     </main>
     <footer>
-
+        <p>Desenvolvido por George Alcantara &copy - 2024</p>
     </footer>
     
 

@@ -13,18 +13,20 @@
 body {font-family: "DMsans";}
 h3 {text-align: center;font-size: 30px;background-color:#2368accc;color: white;border-radius: 30px;width: 200px;margin: auto;margin-bottom: 20px;margin-top: 20px;}
 
-header {width: 100%; height: 100px;background-color:#2368accc;padding: 20px;color: white;font-family: "Play";text-shadow: rgba(0, 0, 0, 0.61) 1px 1px 1px;position: fixed;top: 0;left: 0;}
+header {width: 100%; height: auto;background-color:#2368accc;padding: 20px;color: white;font-family: "Play";text-shadow: rgba(0, 0, 0, 0.61) 1px 1px 1px;position: fixed;top: 0;left: 0;}
 header a {text-decoration: none;color: white;}
 header h1 {font-size: 40px;}
 header p {font-size: 16px;}
-header menu {text-align: right;margin-right: 30px;}
-header menu ul li {display: inline-block;margin-right: 10px;font-family: "DMsans";font-size: 20px;}
+menu {display: none;text-align: right;padding-right: 20px;padding-left: 20px;}
+menu ul {list-style-type: none;}
+menu a {display: block; padding: 10px;color: white;text-decoration: none;text-align: center;min-width: 90px;}
+menu a:hover {text-decoration: underline;cursor: pointer;transition: 1s;}
+#menu {display: block;padding: 10px;text-align: center;cursor: pointer;}
 
-
-div {padding: 30px;border-style: solid;border-radius: 20px;border-color: rgb(46, 101, 219);width: 90vw;margin: auto;}
+div {padding: 30px;border-style: solid;border-radius: 20px;border-color: rgb(46, 101, 219);width: 80vw;margin: auto;}
 #div1 {border-style: none;margin-left: 30px;}
 #div1 div {border-style: none;}
-#div1 h2 {font-size: 35px;width: 40vw;margin-bottom: 20px;text-align: justify;margin-top: 150px;}
+#div1 h2 {font-size: 40px;width: 35vw;margin-bottom: 20px;text-align: justify;margin-top: 150px;}
 #orc {display: inline}
 #orc p {vertical-align: middle;}
 #zap {width: 50px;height: 50px;}
@@ -35,6 +37,14 @@ div {padding: 30px;border-style: solid;border-radius: 20px;border-color: rgb(46,
 #divHabilidades {text-align: center;}
 #divHabilidades img {width: 100px;margin: 30px;vertical-align: middle;}
 
-/*
-#orc {margin-bottom: 10px;border-color: rgb(46, 101, 219);border-style: solid;border-radius: 20px;border-width: auto;padding: 5px;width: 300px;font-size: 20px;}
-*/
+#divSobremim {text-align: center;}
+#divSobremimint {columns: 2;min-width: 600px;max-width: 700px;border: none;display: inline-block;text-align: justify;font-size: 20px;}
+#foto_perfil {width: 300px;border-radius: 20px;}
+
+#divServicos {text-align: center;}
+#divServicos img {margin-right: 20px;}
+
+#divContatos {width: 100vw;height: auto;background-color: rgb(46, 101, 219);margin-top: 30px;border-radius: 0px;text-align: center;padding: 20px;}
+#divContatos img {width: 40px;margin-right: 20px;}
+
+footer {width: 100vw;height: auto;background-color: rgb(0, 0, 0);color: white;text-align: center;padding: 16px;}
