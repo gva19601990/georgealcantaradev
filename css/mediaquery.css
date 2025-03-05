@@ -5,3 +5,15 @@
     menu {display: block;}
     menu li {display:inline-block}
 } 
+@media screen and (max-width: 800px) {
+    #div1 h2 {width: 60vw;font-size: 30px;text-align: justify;}
+    #divSobremimint {width: 45vw;border-style: none;}
+    #divSobremimint img {width: 40vw;display: block;margin: auto;margin-bottom: 10px;border-radius: 20px;}
+}
+
+@media screen and (max-width: 550px) {
+    #div1 h2 {width: 60vw;font-size: 25px;text-align: justify;}
+    #divProjetos img {width: 200px;}
+    #divHabilidades img{width: 50px;}
+}
+
