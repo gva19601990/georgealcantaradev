@@ -5,10 +5,17 @@
     menu {display: block;}
     menu li {display:inline-block}
 } 
-@media screen and (max-width: 800px) {
-    #div1 h2 {width: 60vw;font-size: 30px;text-align: justify;}
-    #divSobremimint {width: 45vw;border-style: none;}
-    #divSobremimint img {width: 40vw;display: block;margin: auto;margin-bottom: 10px;border-radius: 20px;}
+@media screen and (max-width: 900px) {
+    .sobreminint img{
+        width: 180px;
+        border-radius: 20px;
+    }
+    .sobreminint {
+        border: none;
+        width: 180px;
+        text-align: justify;
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 550px) {

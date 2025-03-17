@@ -41,9 +41,31 @@ body div {width: 70vw;display: block;margin: auto;padding: 20px;border-style: so
 #divHabilidades img:hover {transform: scale(1.2);transition: 800ms;}
 #divHabilidades img:not(:hover) {transform: scale(1.0);transition: 800ms;}
 
+#divSobremimint {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 700px;
+    padding: 0px;
+    font-size: 18px;
+    border: none;
+    
+}
+.sobreminint img{
+    width: 300px;
+    border-radius: 20px;
+}
+.sobreminint {
+    border: none;
+    width: 200px;
+    text-align: justify;
+    align-items: center;
+}
+
+/*
 #divSobremimint {width: 40vw;border-style: none;}
 #divSobremimint img {width: 300px;display: block;margin: auto;margin-bottom: 10px;border-radius: 20px;}
-#divSobremimint p {text-align: justify;}
+#divSobremimint p {text-align: justify;}*/
 
 #divServicos {margin-bottom: 50px;}
 #divServicos img {margin: 5%;z-index: 10;}
