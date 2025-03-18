@@ -5,6 +5,15 @@
     menu {display: block;}
     menu li {display:inline-block}
 } 
+
+@media screen and (max-width: 1600px) {
+    #divProjetos img {width: 200px;margin: 5%;z-index: 10;}
+    #divHabilidades img{width: 120px;vertical-align: middle;margin: 5%;}
+    #divServicos img {width: 100px;}
+    #div1 h2 { font-size: 30px;   }
+    
+
+}
 @media screen and (max-width: 900px) {
     .sobreminint img{
         width: 180px;
