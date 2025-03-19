@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) {
+    header {display: flex;align-items: center;justify-content: space-between;}
     #menu {display: none;}
     menu {display: block;}
     menu li {display:inline-block}
@@ -15,21 +16,17 @@
 
 }
 @media screen and (max-width: 900px) {
-    .sobreminint img{
-        width: 180px;
-        border-radius: 20px;
-    }
     .sobreminint {
         border: none;
-        width: 180px;
         text-align: justify;
-        font-size: 15px;
     }
 }
 
+@media screen and (max-width: 800px) {
+    .sobreminint p {text-align: center;}
+}
 @media screen and (max-width: 550px) {
-    #div1 h2 {width: 60vw;font-size: 25px;text-align: justify;}
+        #div1 h2 {width: 60vw;font-size: 25px;text-align: justify;}
     #divProjetos img {width: 200px;}
     #divHabilidades img{width: 100px;}
 }
-
